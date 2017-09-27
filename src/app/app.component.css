@@ -1,0 +1,38 @@
+nav{
+    background-color:#000000;
+   }
+   
+   nav a{
+    display:inline-block;
+    padding: 13px 25px;
+    color:#fff;
+    font-weight:bold;
+    font-size:13px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS';
+    transition:background-color 0.5s;
+   }
+
+
+   
+   nav a:focus{
+    background-color:#107C88;
+    /*border-radius:5px;*/
+   }
+
+   /*nav.home .home,
+   nav.men .men,
+   nav.women .women,
+   nav.login .login
+   nav.contact .contact{
+    background-color:#e35885;
+   }
+   
+   nav a:hover{
+    background-color:#0E90A1;
+   }*/
+
+   .menu{
+    background-color:#000000;
+   }
