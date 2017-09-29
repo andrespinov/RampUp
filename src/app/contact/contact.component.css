@@ -1,0 +1,53 @@
+form{
+    padding:10px;
+    display:block;
+    width:200px;
+    margin: 0 auto;
+    text-align:justify;
+    font-family:'Trebuchet MS';
+    font-size:13px;
+}
+
+.form-group{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.form-control{
+    border: 1px solid #999;
+    border-radius: 7px;
+    padding: 7px;
+    margin:8px auto 5px;
+}
+/*textarea{
+    border: 1px dotted #999;
+    border-radius: 7px;
+  
+    -webkit-appearance: none;
+}*/
+
+.btn{
+    border: 1px solid #333;
+    padding: 9px 15px;
+    border-radius: 7px;
+    background: none;
+    cursor: pointer;
+    font-family:'Trebuchet MS';
+    font-size:13px;
+}
+
+h1{
+    text-align:center;
+    position: relative;
+    font-family:'Trebuchet MS';
+    font-size:20px;
+    margin:25px auto 5px;
+}
+
+.description{
+    text-align:center;
+    font-family:'Trebuchet MS';
+    font-size:15px;
+    font-weight: normal;
+    
+}

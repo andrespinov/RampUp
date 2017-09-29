@@ -10,23 +10,24 @@ import { Component, OnInit } from '@angular/core';
 
 export class HomeComponent {
 
-  image = "https://api.adorable.io/avatars/206";
-  images = ["https://api.adorable.io/avatars/206",
-    "https://api.adorable.io/avatars/207",
-    "https://api.adorable.io/avatars/208",
-    "https://api.adorable.io/avatars/209"];
+  image : String;
+  basePath: String;
   index = 0;
 
   constructor() {
 
-    setInterval(function () {
-      this.index += 1;
-      if (this.index == this.images.lenght) {
-        this.index = 0;
-      }
-      this.image = this.images[this.index];
-    }, 300);
+    setInterval(() => this.changeImage(), 3000);
   }
+
+  changeImage(){
+    if(this.index == 4){
+      this.index = 0;
+    }
+    this.image =  "../../assets/bannerImage" + this.index + ".jpg";
+    console.log(this.image);
+    this.index += 1;
+  }
+
 }
 
 
